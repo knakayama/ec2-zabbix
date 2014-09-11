@@ -1,7 +1,8 @@
 {
   "name": "ec2-zabbix-role",
+  "description": "1st role",
   "run_list": [
-      "recipe[apt::default]",
-      "recipe[build-essential::default]"
+    "recipe[apt::default]",
+    "recipe[build-essential::default]"
   ]
 }
