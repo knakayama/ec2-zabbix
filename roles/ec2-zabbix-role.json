@@ -1,8 +1,0 @@
-{
-  "name": "ec2-zabbix-role",
-  "description": "install development tools",
-  "run_list": [
-    "recipe[apt::default]",
-    "recipe[build-essential::default]"
-  ]
-}

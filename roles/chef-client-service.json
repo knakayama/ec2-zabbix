@@ -1,7 +1,0 @@
-{
-  "name": "chef-client-service",
-  "run_list": [
-      "recipe[chef-client::default]",
-      "recipe[chef-client::delete_validation]"
-  ]
-}
