@@ -4,7 +4,7 @@ require 'rspec/core/rake_task'
 hosts = [
     {
         :name  => ENV["HOSTNAME"],
-        :roles => %w(linux_common ntp postfix httpd24 mysql zabbix_server),
+        :roles => %w(linux_common ntp postfix httpd24 mysql zabbix_server zabbix_agent),
     },
 ]
 
