@@ -6,4 +6,5 @@ Gemfile.lock
 Berksfile.lock
 /cookbooks/
 /roles/
+/vendor/
 
