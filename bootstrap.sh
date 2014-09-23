@@ -1,6 +1,6 @@
 #!/bin/bash
 
-knife bootstrap "$HOSTNAME" \
+knife bootstrap "$HOST_NAME" \
     --ssh-user "$AWS_SSH_USERNAME" \
     --node-name "$HOST_NAME" \
     --identity-file "$AWS_SSH_KEY_PATH" \
