@@ -23,8 +23,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         aws.instance_type     = ENV["INSTANCE_TYPE"]
         aws.security_groups   = [ENV["AWS_SECURITY_GROUP"]]
         aws.tags              = {
-            "Name"        => "ec2-zabbix",
-            "Description" => "zabbix server on ec2",
+            "Name"        => ENV["NAME"],
+            "Description" => ENV["DESCRIPTION"]
         }
         aws.elastic_ip        = ENV["ELASTIC_IP"]
         aws.user_data         = <<EOT
